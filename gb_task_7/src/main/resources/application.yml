@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aleksei
+    password: root
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+
